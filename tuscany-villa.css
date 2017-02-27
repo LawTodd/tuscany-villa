@@ -1,0 +1,51 @@
+body {
+	background-repeat: no-repeat;
+}
+
+#center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#center div {
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+}
+
+#bottom {
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	transform: translate(-10%, -50%);
+	color: white;
+}
+
+#bottom div {
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+}
+
+#bottom span {
+	width: 100%;
+	opacity: 1.0;
+	background-color: blue;
+}
+
+.transbox {
+	margin: 20px 20px 20px 20px;
+	background-color: black;
+	opacity: 0.6;
+}
+
+.transbox div {
+
+}
+
+#center div:hoover {
+	opacity: 1.0;
+}
